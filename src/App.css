@@ -1,0 +1,9 @@
+.app {
+    position: absolute;
+    width: 1232px;
+    height: 820px;
+    left: 148px;
+    top: 186px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(230, 231, 234, 0.78);
+}

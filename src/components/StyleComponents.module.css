@@ -1,0 +1,105 @@
+.search {
+    position: absolute;
+    width: 631px;
+    height: 52px;
+    left: 226px;
+    top: 209px;
+    background: #5a5c66;
+}
+
+.tableHeader {
+    position: absolute;
+    width: 1077px;
+    height: 54px;
+    left: 226px;
+    top: 276px;
+    background: #474955;
+    box-shadow: 0px 4px 27px rgba(230, 231, 234, 0.78);
+}
+
+.id {
+    position: absolute;
+    width: 14px;
+    height: 19px;
+    left: 249px;
+    top: 295px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 137.69%;
+    /* or 19px */
+
+
+    color: #FFFFFF;
+}
+
+.titleTable {
+    position: absolute;
+    width: 70px;
+    height: 19px;
+    left: 465px;
+    top: 295px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 137.69%;
+    /* or 19px */
+
+
+    color: #FFFFFF;
+}
+
+.description {
+    position: absolute;
+    width: 64px;
+    height: 19px;
+    left: 991px;
+    top: 295px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 137.69%;
+    /* or 19px */
+
+
+    color: #FFFFFF;
+}
+
+.arrow1 {
+    position: absolute;
+    width: 8.24px;
+    height: 0px;
+    left: 302px;
+    top: 303px;
+}
+
+.arrow2 {
+    position: absolute;
+    width: 8.24px;
+    height: 0px;
+    left: 569px;
+    top: 303px;
+}
+
+.arrow3 {
+    position: absolute;
+    width: 8.24px;
+    height: 0px;
+    left: 1080px;
+    top: 303px;
+}
+.searchIcon{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0.04%;
+bottom: 0.04%;
+
+background: #FFFFFF;
+}
