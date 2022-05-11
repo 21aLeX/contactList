@@ -1,15 +1,14 @@
 import axios from 'axios'
-import React, { Component } from 'react'
 
 export default class GetData {
     static async getAll() {
         try {
-          const url ='https://jsonplaceholder.typicode.com/posts'
-          const response = await axios.get(url)
-          .then((repos) => {
-            return repos
+          const res = await axios.get('https://jsonplaceholder.typicode.com/posts')
+          .then(response => {
+            // console.log(response.data[0])
+            return response.data
           })
-          return response
+          return res
         } catch (e) {
           alert(e.message)
         }

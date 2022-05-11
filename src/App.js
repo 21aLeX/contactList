@@ -8,16 +8,22 @@ import Back from './components/Back';
 import Next from './components/Next';
 import Number from './components/Number';
 import GetData from './API/GetData';
+import { useDispatch } from 'react-redux';
+import {addPost} from './store/slise/dataSlise'
 
 function App() {
+  const dispatch = useDispatch()
   async function res(){
     try{
     
- const ot =  await GetData.getAll()} catch (e) {
+ const ot =  await GetData.getAll()
+ dispatch(addPost(ot))
+  console.log(typeof (ot))
+} catch (e) {
   alert('Произошла ошибка' + e)
 }
   }
-  console.log(res())
+  res()
   return (
     <div>
     <div className='app'>
