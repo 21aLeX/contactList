@@ -8,17 +8,13 @@ const TableRowHeader = () => {
         <tr>
             <td className={s.id}>ID
             </td>
-            <IconButton  className={s.arrow1}>
-            <KeyboardArrowDownIcon  />
-            </IconButton>
+            <i className={s.arrow1}>
+            </i>
             <td className={s.titleTable}>Заголовок</td>
-            <IconButton  className={s.arrow2}>
-            <KeyboardArrowDownIcon  />
-            </IconButton>
+            <i className={s.arrow2}>
+            </i>
             <td className={s.description}>Описание</td>
-            <IconButton  className={s.arrow3}>
-            <KeyboardArrowDownIcon  />
-            </IconButton>
+            <i className={s.arrow3}></i>
         </tr>
     );
 };

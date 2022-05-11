@@ -5,12 +5,12 @@ import { IconButton, Paper, Divider,InputBase} from '@mui/material';
 
 const SearchInput = () => {
     return (
-             <Paper className={s.search}>
-      <InputBase sx={{ ml: 1, flex: 6 }}/>
-      <IconButton>
-        <SearchIcon className={s.searchIcon} />
-      </IconButton>
-    </Paper>
+      <div>
+      <input className={s.search}
+      placeholder='Поиск'
+      />
+            <SearchIcon  sx={{ color: 'white' }} className={s.searchIcon} />
+      </div>
     );
 };
 

@@ -4,7 +4,43 @@
     height: 52px;
     left: 226px;
     top: 209px;
+
+    background: #5A5C66;
+}
+
+.searchIcon {
+    position: absolute;
+width: 21px;
+height: 21px;
+left: 812px;
+top: 224px;
+
+}
+
+
+.inputSearch {
+    position: absolute;
     background: #5a5c66;
+    width: 600px;
+    height: 52px;
+
+}
+::placeholder{
+    position: absolute;
+width: 41px;
+height: 19px;
+left: 4px;
+top: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 137.69%;
+/* or 19px */
+
+
+color: #B3B7BF;
 }
 
 .tableHeader {
@@ -73,33 +109,82 @@
 
 .arrow1 {
     position: absolute;
-    width: 8.24px;
-    height: 0px;
     left: 302px;
-    top: 303px;
+    top: 300px;
 }
 
 .arrow2 {
     position: absolute;
-    width: 8.24px;
-    height: 0px;
     left: 569px;
-    top: 303px;
+    top: 300px;
 }
 
 .arrow3 {
     position: absolute;
-    width: 8.24px;
-    height: 0px;
     left: 1080px;
-    top: 303px;
+    top: 300px;
 }
-.searchIcon{
-    position: absolute;
-left: 0%;
-right: 0%;
-top: 0.04%;
-bottom: 0.04%;
 
-background: #FFFFFF;
+i {
+    position: absolute;
+    height: 0px;
+    border: solid #FFFFFF;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.back{
+    position: absolute;
+width: 71px;
+height: 33px;
+left: 267px;
+top: 961px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 137.69%;
+/* identical to box height, or 33px */
+
+
+color: #474955;
+}
+
+.next{
+    position: absolute;
+width: 71px;
+height: 33px;
+left: 1206px;
+top: 961px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 137.69%;
+/* identical to box height, or 33px */
+
+
+color: #474955;
+}
+
+.number{
+    position: absolute;
+width: 104px;
+height: 25px;
+left: 713px;
+top: 969px;
+
+font-family: 'Roboto';
+font-style: italic;
+font-weight: 700;
+font-size: 18px;
+line-height: 137.69%;
+/* identical to box height, or 25px */
+
+
+color: #7EBC3C;
 }
