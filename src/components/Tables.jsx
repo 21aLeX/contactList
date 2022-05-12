@@ -6,12 +6,12 @@ import TableRows from './TableRows';
 
 const Tables = () => {
     return (
-        <div>
+        <table>
             <TableHeader/>        
             <TableRowHeader/>
-            <TableRows/>
+            {/* <TableRows/> */}
             
-            </div>       
+            </table>       
     );
 };
 

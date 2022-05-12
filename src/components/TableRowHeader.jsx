@@ -5,17 +5,25 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const TableRowHeader = () => {
     return (
-        <tr>
+        <thead>
+            <tr>
             <td className={s.id}>ID
             </td>
+            <td>
             <i className={s.arrow1}>
             </i>
+            </td>
             <td className={s.titleTable}>Заголовок</td>
+            <td>
             <i className={s.arrow2}>
             </i>
+            </td>
             <td className={s.description}>Описание</td>
+            <td>
             <i className={s.arrow3}></i>
-        </tr>
+            </td>
+            </tr>
+        </thead>
     );
 };
 

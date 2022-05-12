@@ -6,8 +6,8 @@ import TableRowHeader from './TableRowHeader';
 const TableHeader = () => {
     return (
         
-        <table className={s.tableHeader}>
-        </table>     
+        <thead className={s.tableHeader}>
+        </thead>     
     );
 };
 

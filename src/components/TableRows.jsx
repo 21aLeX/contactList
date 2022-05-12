@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 
 const TableRows = () => {
     const listPost = useSelector(state => state.post.post);
+    console.log(listPost)
     
 //   const searchContact = useMemo(() => {
 //     return listContact.filter(c => c.name.toLowerCase().includes(search) || c.telephone.toLowerCase().includes(search))
@@ -16,7 +17,7 @@ const TableRows = () => {
           key={index + 1}
           sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
         >
-          <TableCell style={{ width:5 }}>{index + 1}</TableCell>
+          {/* <TableCell style={{ width:5 }}>{index + 1}</TableCell> */}
           <TableCell>
             {listPost.id}
           </TableCell>

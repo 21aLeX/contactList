@@ -8,6 +8,7 @@ export default class GetData {
             // console.log(response.data[0])
             return response.data
           })
+          console.log(Array.from(res))
           return res
         } catch (e) {
           alert(e.message)
