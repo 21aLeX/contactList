@@ -8,16 +8,23 @@ import Back from './components/Back';
 import Next from './components/Next';
 import Number from './components/Number';
 import GetData from './API/GetData';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import {addPost} from './store/slise/dataSlise'
+import { useState } from 'react';
+import { addPage } from './store/slise/pagesSlise';
 
 function App() {
+  const limit = useSelector(state => state.page.limit)
+  const page =  useSelector(state => state.page.page)
+  const [count, setCount] = useState(0)
   const dispatch = useDispatch()
   async function res(){
     try{
     
- const ot =  await GetData.getAll()
- dispatch(addPost(ot))
+ const ansver =  await GetData.getAll(limit, page)
+ dispatch(addPost(ansver.data))
+ dispatch(addPage(ansver.headers['x-total-count']))
+
 } catch (e) {
   alert('Произошла ошибка' + e)
 }

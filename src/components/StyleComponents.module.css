@@ -173,10 +173,12 @@ color: #474955;
 
 .number{
     position: absolute;
-width: 104px;
+width: max-content;
 height: 25px;
-left: 713px;
+right: 50%;
+left: 50%;
 top: 969px;
+margin-left: calc(var(--variable-width)/2);
 
 font-family: 'Roboto';
 font-style: italic;
@@ -210,4 +212,8 @@ td.text {
     color: #474955;
     padding: 10px;
     border: 1px solid #E3E6EC;
+}
+
+span{
+    padding: 10px;
 }

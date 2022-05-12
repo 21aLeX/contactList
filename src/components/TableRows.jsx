@@ -5,12 +5,12 @@ import s from './StyleComponents.module.css'
 
 const TableRows = () => {
     const listPost = useSelector(state => state.post.post);
-    
+    console.log(listPost)
 //   const searchContact = useMemo(() => {
 //     return listContact.filter(c => c.name.toLowerCase().includes(search) || c.telephone.toLowerCase().includes(search))
 //   }, [listContact, search])
     return (
-        <tr className={s.tableRow}>
+        <tbody className={s.tableRow}>
       {listPost.map((listPost, index) => (
         <tr
         align="right"
@@ -25,7 +25,7 @@ const TableRows = () => {
           <td  className={s.text}>{listPost.body}</td>          
         </tr>
       ))}
-    </tr>
+    </tbody>
     );
 };
 

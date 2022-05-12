@@ -1,15 +1,14 @@
 import axios from 'axios'
 
 export default class GetData {
-    static async getAll() {
+    static async getAll(limit, page) {
         try {
-          const res = await axios.get('https://jsonplaceholder.typicode.com/posts')
-          .then(response => {
-            // console.log(response.data[0])
-            return response.data
+          const response = await axios.get('https://jsonplaceholder.typicode.com/posts',{
+            params:{
+            _limit: limit,
+            _pages:page}
           })
-          console.log(Array.from(res))
-          return res
+          return response
         } catch (e) {
           alert(e.message)
         }
