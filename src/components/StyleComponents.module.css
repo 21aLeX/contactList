@@ -188,3 +188,26 @@ line-height: 137.69%;
 
 color: #7EBC3C;
 }
+
+.tableRow{
+position: absolute;
+width: 1079px;
+height: 0px;
+left: 224px;
+top: 330px;
+
+border-collapse: collapse;
+
+border: 1px solid #E3E6EC;
+}
+td.text {
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 137.69%;
+    color: #474955;
+    padding: 10px;
+    border: 1px solid #E3E6EC;
+}

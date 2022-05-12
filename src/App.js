@@ -18,7 +18,6 @@ function App() {
     
  const ot =  await GetData.getAll()
  dispatch(addPost(ot))
-  console.log(typeof (ot))
 } catch (e) {
   alert('Произошла ошибка' + e)
 }

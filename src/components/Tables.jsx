@@ -9,7 +9,7 @@ const Tables = () => {
         <table>
             <TableHeader/>        
             <TableRowHeader/>
-            {/* <TableRows/> */}
+            <TableRows/>
             
             </table>       
     );

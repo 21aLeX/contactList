@@ -7,8 +7,9 @@ const dataSlise = createSlice({
     },
     reducers: {
         addPost(state, action) {
-            console.log(action.payload)
-            state.post.push(action.payload[0])
+            for(let i = 0; i<100 ;i++){
+            state.post.push(action.payload[i])
+            }
         }
     }
 })
