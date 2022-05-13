@@ -10,10 +10,10 @@
 
 .searchIcon {
     position: absolute;
-width: 21px;
-height: 21px;
-left: 812px;
-top: 224px;
+    width: 21px;
+    height: 21px;
+    left: 812px;
+    top: 224px;
 
 }
 
@@ -25,22 +25,23 @@ top: 224px;
     height: 52px;
 
 }
-::placeholder{
+
+::placeholder {
     position: absolute;
-width: 41px;
-height: 19px;
-left: 4px;
-top: 17px;
+    width: 41px;
+    height: 19px;
+    left: 4px;
+    top: 17px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 137.69%;
-/* or 19px */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 137.69%;
+    /* or 19px */
 
 
-color: #B3B7BF;
+    color: #B3B7BF;
 }
 
 .tableHeader {
@@ -55,9 +56,9 @@ color: #B3B7BF;
 
 .id {
     position: absolute;
-    width: 14px;
+    width: 44px;
     height: 19px;
-    left: 249px;
+    left: 209px;
     top: 295px;
 
     font-family: 'Roboto';
@@ -71,11 +72,11 @@ color: #B3B7BF;
     color: #FFFFFF;
 }
 
-.titleTable {
+.title {
     position: absolute;
-    width: 70px;
+    width: 170px;
     height: 19px;
-    left: 465px;
+    left: 249px;
     top: 295px;
 
     font-family: 'Roboto';
@@ -86,7 +87,7 @@ color: #B3B7BF;
     /* or 19px */
 
 
-    color: #FFFFFF;
+    text-color: #FFFFFF;
 }
 
 .description {
@@ -107,24 +108,10 @@ color: #B3B7BF;
     color: #FFFFFF;
 }
 
-.arrow1 {
+.arrow{
     position: absolute;
-    left: 302px;
-    top: 300px;
-}
-
-.arrow2 {
-    position: absolute;
-    left: 569px;
-    top: 300px;
-}
-
-.arrow3 {
-    position: absolute;
-    left: 1080px;
-    top: 300px;
-}
-
+    right: 0px;
+} 
 i {
     position: absolute;
     height: 0px;
@@ -135,73 +122,76 @@ i {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
-.back{
+
+.back {
     position: absolute;
-width: 71px;
-height: 33px;
-left: 267px;
-top: 961px;
+    width: 71px;
+    height: 33px;
+    left: 267px;
+    top: 961px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 137.69%;
-/* identical to box height, or 33px */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 137.69%;
+    /* identical to box height, or 33px */
 
 
-color: #474955;
+    color: #474955;
 }
 
-.next{
+.next {
     position: absolute;
-width: 71px;
-height: 33px;
-left: 1206px;
-top: 961px;
+    width: 71px;
+    height: 33px;
+    left: 1206px;
+    top: 961px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 137.69%;
-/* identical to box height, or 33px */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 137.69%;
+    /* identical to box height, or 33px */
 
 
-color: #474955;
+    color: #474955;
 }
 
-.number{
+.number {
     position: absolute;
-width: max-content;
-height: 25px;
-right: 50%;
-left: 50%;
-top: 969px;
-margin-left: calc(var(--variable-width)/2);
+    --width: max-content;
+    height: 25px;
+    left: 713px;
+    top: 969px;
 
-font-family: 'Roboto';
-font-style: italic;
-font-weight: 700;
-font-size: 18px;
-line-height: 137.69%;
-/* identical to box height, or 25px */
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 137.69%;
+    /* identical to box height, or 25px */
 
-
-color: #7EBC3C;
+    color: #474955;
 }
 
-.tableRow{
-position: absolute;
-width: 1079px;
-height: 0px;
-left: 224px;
-top: 330px;
-
-border-collapse: collapse;
-
-border: 1px solid #E3E6EC;
+.numberColor{
+    color: #7EBC3C;
 }
+
+.tableRow {
+    position: absolute;
+    width: 1079px;
+    height: 0px;
+    left: 224px;
+    top: 330px;
+
+    border-collapse: collapse;
+
+    border: 1px solid #E3E6EC;
+}
+
 td.text {
     text-align: left;
     font-family: 'Roboto';
@@ -214,6 +204,6 @@ td.text {
     border: 1px solid #E3E6EC;
 }
 
-span{
+span {
     padding: 10px;
 }

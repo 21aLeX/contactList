@@ -12,6 +12,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import {addPost} from './store/slise/dataSlise'
 import { useState } from 'react';
 import { addPage } from './store/slise/pagesSlise';
+import IdButton from './components/Button/IdButton';
+import TitleButton from './components/Button/TitleButton';
 
 function App() {
   const limit = useSelector(state => state.page.limit)
@@ -36,6 +38,8 @@ function App() {
     </div>
       <SearchInput/>     
       <Tables/>
+            <IdButton/>
+            <TitleButton/>
       <Back/>
       <Number/>
       <Next/>

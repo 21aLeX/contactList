@@ -7,8 +7,7 @@ import TableRows from './TableRows';
 const Tables = () => {
     return (
         <table>
-            <TableHeader/>        
-            <TableRowHeader/>
+            <TableHeader/>    
             <TableRows/>
             
             </table>       

@@ -17,6 +17,7 @@ const Number = () => {
         <div className={s.number}>
             {arrPages.map((page, index) => (
         <span
+        id={index + 1}
           key={index + 1}> 
           {page}       
         </span>
