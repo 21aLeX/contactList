@@ -4,12 +4,11 @@ import s from '../StyleComponents.module.css'
 
 const IdButton = () => {
     return (
-        <Button 
-        className={s.id}
-         >
+        <button 
+        className={s.id +' '+ s.headerText+' '+s.button}>
             ID
             <i className={s.arrow}></i>
-        </Button>
+        </button>
     );
 };
 

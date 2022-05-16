@@ -18,7 +18,7 @@ const TableRows = () => {
           sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
         >
           {/* <TableCell style={{ width:5 }}>{index + 1}</TableCell> */}
-          <td  className={s.text}>
+          <td  className={s.text+' '+s.idTd}>
             {listPost.id}
           </td>
           <td  className={s.text}>{listPost.title}</td>

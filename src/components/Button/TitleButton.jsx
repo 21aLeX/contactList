@@ -4,12 +4,12 @@ import s from '../StyleComponents.module.css'
 
 const TitleButton = () => {
     return (
-        <Button
-            className={s.title}
+        <button
+            className={s.title +' '+ s.headerText+' '+s.button}
         >
             Заголовок
             <i className={s.arrow}></i>
-        </Button>
+        </button>
     );
 };
 
