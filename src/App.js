@@ -14,6 +14,7 @@ import { useState } from 'react';
 import { addPage } from './store/slise/pagesSlise';
 import IdButton from './components/Button/IdButton';
 import TitleButton from './components/Button/TitleButton';
+import DescriptionButton from './components/Button/DescriptionButton';
 
 function App() {
   const limit = useSelector(state => state.page.limit)
@@ -40,6 +41,7 @@ function App() {
       <Tables/>
             <IdButton/>
             <TitleButton/>
+            <DescriptionButton/>
       <Back/>
       <Number/>
       <Next/>
