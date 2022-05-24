@@ -1,16 +1,14 @@
 import React from 'react';
 import s from './StyleComponents.module.css'
 import TableHeader from './TableHeader';
-import TableRowHeader from './TableRowHeader';
 import TableRows from './TableRows';
 
 const Tables = () => {
     return (
         <table>
-            <TableHeader/>    
-            <TableRows/>
-            
-            </table>       
+            <TableHeader />
+            <TableRows />
+        </table>
     );
 };
 
