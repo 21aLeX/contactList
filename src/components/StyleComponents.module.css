@@ -89,7 +89,7 @@
 
 .arrow{
     position: sticky;
-    margin-left: 5px;
+    margin-left: 15px;
     margin-right: 5px;
     right: 0px;
 } 
@@ -142,18 +142,17 @@ i {
 
 .number {
     position: absolute;
-    --width: max-content;
+    width: 300;
     height: 25px;
-    left: 713px;
+    left: 573px;
     top: 969px;
+    text-align: center;
 
     font-family: 'Roboto';
     font-style: italic;
     font-weight: 700;
     font-size: 18px;
     line-height: 137.69%;
-    /* identical to box height, or 25px */
-
     color: #474955;
 }
 

@@ -5,15 +5,19 @@ const pagesSlise = createSlice({
     initialState: {
         page: 1,
         limit: 10,
+        currentPage: 1,
     },
     reducers: {
         addPage(state, action) {
             state.page = Math.ceil(action.payload/state.limit)
-            console.log(state.page)
+        },
+        setCurrentPage(state,action){
+            console.log(action.payload)
+            state.currentPage = action.payload
         }
     }
 })
 
-export const {addPage} = pagesSlise.actions
+export const {addPage,setCurrentPage} = pagesSlise.actions
 
 export default pagesSlise.reducer

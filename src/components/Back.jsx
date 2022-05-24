@@ -3,9 +3,9 @@ import s from './StyleComponents.module.css'
 
 const Back = () => {
     return (
-        <a className={s.back}>
+        <button className={s.back + ' ' + s.button}>
             Назад
-        </a>
+        </button>
     );
 };
 

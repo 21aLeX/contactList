@@ -5,12 +5,12 @@ import Tables from './components/Tables';
 import s from './components/StyleComponents.module.css'
 import SearchIcon from '@mui/icons-material/Search';
 import Back from './components/Back';
-import Next from './components/Next';
+import Pages from './components/Pages';
 import Number from './components/Number';
 import GetData from './API/GetData';
 import { useDispatch, useSelector } from 'react-redux';
 import {addPost} from './store/slise/dataSlise'
-import { useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { addPage } from './store/slise/pagesSlise';
 import IdButton from './components/Button/IdButton';
 import TitleButton from './components/Button/TitleButton';
@@ -32,7 +32,10 @@ function App() {
   alert('Произошла ошибка' + e)
 }
   }
+  useMemo(()=>{
   res()
+
+  },[])
   return (
     <div>
     <div className='app'>
@@ -42,9 +45,9 @@ function App() {
             <IdButton/>
             <TitleButton/>
             <DescriptionButton/>
-      <Back/>
-      <Number/>
-      <Next/>
+      {/* <Back/> */}
+      {/* <Number/> */}
+      <Pages/>
       </div>
   );
 }

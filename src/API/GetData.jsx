@@ -6,8 +6,9 @@ export default class GetData {
           const response = await axios.get('https://jsonplaceholder.typicode.com/posts',{
             params:{
             _limit: limit,
-            _pages:page}
+            _page:page}
           })
+          console.log(page)
           return response
         } catch (e) {
           alert(e.message)
