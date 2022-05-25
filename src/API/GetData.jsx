@@ -8,7 +8,6 @@ export default class GetData {
             _limit: limit,
             _page:page}
           })
-          console.log(page)
           return response
         } catch (e) {
           alert(e.message)

@@ -7,7 +7,6 @@ const IdButton = () => {
     const [select, setSelect] = useState('')
     const dispatch = useDispatch()
     useMemo(() => {
-        console.log('memo' + select)
         dispatch(addSelect(select))
     }, [select])
 

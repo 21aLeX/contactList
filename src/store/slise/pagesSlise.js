@@ -12,7 +12,6 @@ const pagesSlise = createSlice({
             state.page = Math.ceil(action.payload/state.limit)
         },
         setCurrentPage(state,action){
-            console.log(action.payload)
             state.currentPage = action.payload
         }
     }

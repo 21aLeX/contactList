@@ -14,7 +14,6 @@ const Pages = () => {
 
     const dispatch = useDispatch()
 
-    console.log(currentPages)
     const arrPages = useMemo(() => {
         const arrPages = []
         for (let i = 1; i <= countPage; i++) {
@@ -44,7 +43,6 @@ const Pages = () => {
         try {
 
             const ansver = await GetData.getAll(limit, page)
-            //  console.log(ansver.data)
             dispatch(addPost(ansver.data))
             dispatch(addPage(ansver.headers['x-total-count']))
 

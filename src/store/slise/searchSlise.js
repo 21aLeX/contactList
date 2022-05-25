@@ -7,7 +7,6 @@ const searchSlise = createSlice({
     },
     reducers: {
         addSearch(state, action) {
-            console.log(action.payload)
             state.search = action.payload
         }
     }
