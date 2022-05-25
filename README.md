@@ -1,4 +1,4 @@
-Live [Demo]([https://21alex.github.io/](https://21alex.github.io/21aLeX.github.io-contactList/)
+Live [Demo](https://21alex.github.io/](https://21alex.github.io/21aLeX.github.io-contactList/)
 
 
 После скачивания установить 
