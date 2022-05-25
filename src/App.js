@@ -1,20 +1,13 @@
-import { IconButton } from '@mui/material';
 import './App.css';
 import SearchInput from './components/SearchInput';
 import Tables from './components/Tables';
-import s from './components/StyleComponents.module.css'
-import SearchIcon from '@mui/icons-material/Search';
-import Back from './components/Back';
 import Pages from './components/Pages';
-import Number from './components/Number';
 import GetData from './API/GetData';
 import { useDispatch, useSelector } from 'react-redux';
 import { addPost } from './store/slise/dataSlise'
 import { useEffect, useMemo, useState } from 'react';
 import { addPage } from './store/slise/pagesSlise';
 import UiButton from './components/Button/UiButton';
-import TitleButton from './components/Button/TitleButton';
-import DescriptionButton from './components/Button/DescriptionButton';
 
 function App() {
   const limit = useSelector(state => state.page.limit)
