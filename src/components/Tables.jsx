@@ -1,5 +1,4 @@
 import React from 'react';
-import s from './StyleComponents.module.css'
 import TableHeader from './TableHeader';
 import TableRows from './TableRows';
 

@@ -5,14 +5,13 @@ import Pages from './components/Pages';
 import GetData from './API/GetData';
 import { useDispatch, useSelector } from 'react-redux';
 import { addPost } from './store/slise/dataSlise'
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { addPage } from './store/slise/pagesSlise';
 import UiButton from './components/Button/UiButton';
 
 function App() {
   const limit = useSelector(state => state.page.limit)
   const page = useSelector(state => state.page.page)
-  const [count, setCount] = useState(0)
   const dispatch = useDispatch()
   async function res() {
     try {
